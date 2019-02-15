@@ -21,3 +21,8 @@ square.draw (window)
 circle = Circle(Point(60,940),60)
 circle.setFill(color_rgb(255,123,146))
 circle.draw (window)
+
+#Fourth Shape: Orange Oval
+oval = Oval(Point(1000,1000),Point(750,850))
+oval.setFill(color_rgb(255,136,0))
+oval.draw (window)
