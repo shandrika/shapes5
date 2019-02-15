@@ -1,5 +1,7 @@
 from graphics import*
 
+winY = 1000
+winX = 1000
 #Create Window
 
 window = GraphWin("5 Shapes",1000,1000)
@@ -26,3 +28,8 @@ circle.draw (window)
 oval = Oval(Point(1000,1000),Point(750,850))
 oval.setFill(color_rgb(255,136,0))
 oval.draw (window)
+
+#Final Shape: Rhombus
+diamond = Polygon(Point(400,500),Point(500,600),Point(600,500),Point(500,400))
+diamond.setFill(color_rgb(255,255,0))
+diamond.draw (window)
