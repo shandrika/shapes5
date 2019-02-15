@@ -10,7 +10,7 @@ window.setCoords(0,0,1000,1000)
 #First Shape: Blue Triangle
 
 triangle = Polygon(Point(0,0),Point(50,100),Point(100,0))
-triangle.setFill(color_rgb(30,30,230))
+triangle.setFill(color_rgb(255,255,0))
 triangle.draw (window)
 
 #Second Shape: Red Square
@@ -31,5 +31,5 @@ oval.draw (window)
 
 #Final Shape: Rhombus
 diamond = Polygon(Point(400,500),Point(500,600),Point(600,500),Point(500,400))
-diamond.setFill(color_rgb(255,255,0))
+diamond.setFill(color_rgb(30,30,230))
 diamond.draw (window)
